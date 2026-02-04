@@ -941,7 +941,7 @@ fn is_id_start(ch: char) -> bool {
 
 #[inline]
 fn is_id_continue(ch: char) -> bool {
-    unicode_ident::is_xid_start(ch)
+    unicode_ident::is_xid_continue(ch)
 }
 
 #[cfg(test)]
